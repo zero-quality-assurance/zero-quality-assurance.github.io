@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-/*canvas {
+/* body {
+    overflow-x: hidden;
+} */
+
+canvas {
     width: 100vw;
     height: 100vh;
 }
-*/
+
 .ball-text {
     display: none;
 }
