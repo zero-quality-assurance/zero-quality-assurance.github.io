@@ -3,7 +3,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const context = canvas.getContext("2d");
-const frameCount = 180;
+const frameCount = 179;
 
 const currentFrame = (index) => `./images/${(index + 1).toString()}.jpg`;
 const images = [];
@@ -24,6 +24,7 @@ gsap.to(ball, {
         pin: "canvas",
         end: "500%",
     },
+    onUpdate: render,
 });
 
 
