@@ -17,3 +17,49 @@ img {
 .creator-info {
 	text-align: justify;
 }
+
+#zero {
+	stroke-dasharray: 104;
+	stroke-dashoffset: 104;
+	animation: anim 1s ease;
+	animation-fill-mode: forwards;
+  }
+  
+  #quality {
+	stroke-dasharray: 308;
+	stroke-dashoffset: 308;
+	animation: anim 2s ease;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+  }
+  
+  #assur {
+	stroke-dasharray: 187;
+	stroke-dashoffset: 187;
+	animation: anim 2s ease;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+  }
+  
+  #ance {
+	stroke-dasharray: 136;
+	stroke-dashoffset: 136;
+	animation: anim 2s ease;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+  }
+
+  #dot {
+	stroke-dasharray: 2;
+	stroke-dashoffset: 2;
+	animation: anim 1s ease;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+  }
+  
+  @keyframes anim {
+	to {
+	  stroke-dashoffset: 0;
+	}
+  }
+  
